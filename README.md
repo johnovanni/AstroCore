@@ -18,7 +18,7 @@ Versus JPL Horizons, 2026-11-10:
 |---|---|---|
 | Earth | Earth-Moon barycentre minus the Moon's offset | 0.002 deg |
 | Moon | ELP-2000/82 principal terms (Meeus, ch. 47) | 0.002 deg |
-| Sub-solar / sub-lunar point (vs Horizons apparent RA/Dec, 5 dates 2026–2030) | Sun and Moon RA/Dec of date, GMST | Sun worst 0.0092 deg, Moon worst 0.0093 deg (limit 0.05) |
+| Sub-solar / sub-lunar point (vs Horizons apparent RA/Dec, 5 dates 2026–2030) | Sun and Moon RA/Dec of date, GMST | Sun worst 0.0092 deg, Moon worst 0.0120 deg (limit 0.05) |
 
 ## Build and test
 
