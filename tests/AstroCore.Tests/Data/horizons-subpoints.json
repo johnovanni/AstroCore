@@ -1,0 +1,221 @@
+{
+  "description": "JPL Horizons observer-table reference values for AstroCore HorizonsSubPointTests. Values are exactly as Horizons prints them (its own longitude sense and latitude type); see each body's notes.",
+  "api": "https://ssd.jpl.nasa.gov/api/horizons.api",
+  "request": "EPHEM_TYPE=OBSERVER, CENTER=500@399 (geocentre), QUANTITIES='14,15,21', ANG_FORMAT=DEG, EXTRA_PREC=YES, TIME_TYPE=UT, TLIST (JD UTC) = 2451544.5, 2455392.5, 2458928.5, 2460408.5, 2461354.5, 2464571.5",
+  "fetchedUtc": "2026-11-21T22:26:52Z",
+  "bodies": [
+    {
+      "target": "301",
+      "bodyId": "moon",
+      "name": "Moon (301)",
+      "ephemerisSource": "DE441",
+      "cartographicFrame": "MOON_ME",
+      "headerLongitudeNote": "{East-longitude positive}",
+      "longitudeSense": "east",
+      "latitudeType": "planetodetic",
+      "horizonsRadiiKm": "1737.4, 1737.4, 1737.4",
+      "lightTimeUnits": "minutes",
+      "subObserverNote": "Apparent planetodetic longitude and latitude of the center of the target disc seen by the OBSERVER at print-time. This is NOT exactly the same as the \"nearest\" sub-point for a non-spherical target shape (since the center of the disc might not be the point closest to the observer), but is generally very close if not a very irregular body shape. Down-leg light travel-time from target to observer is taken into account. Latitude is the angle between the equatorial plane and the line perpendicular to the reference ellipsoid of the body, so includes body oblateness. The reference ellipsoid is an oblate spheroid with a single flatness coefficient in which the y-axis body radius is taken to be the same value as the x-axis radius. Positive longitude is to the EAST for this target. Cartographic system is given in the header.",
+      "subSolarNote": "Apparent sub-solar longitude and latitude of the Sun on the target. The apparent planetodetic longitude and latitude of the center of the target disc as seen from the Sun, as seen by the observer at print-time. This is NOT exactly the same as the \"sub-solar\" (nearest) point for a non-spherical target shape (since the center of the disc seen from the Sun might not be the closest point to the Sun), but is very close if not a highly irregular body shape. Light travel-time from Sun to target and from target to observer is taken into account. Latitude is the angle between the equatorial plane and the line perpendicular to the reference ellipsoid of the body. The reference ellipsoid is an oblate spheroid with a single flatness coefficient in which the y-axis body radius is taken to be the same value as the x-axis radius. Positive longitude is to the EAST for this target. Cartographic system is given in the header.",
+      "lightTimeNote": "1-way down-leg light-time from target center to observer. The elapsed time since light (observed at print-time) would have left or reflected off a point at the center of the target.",
+      "rows": [
+        {
+          "observerUtc": "2000-01-01T00:00:00Z",
+          "horizonsTimeTag": "2000-Jan-01 00:00:00.000",
+          "lightTimeMinutes": 0.02228749,
+          "subObserverLonDeg": 5.566971,
+          "subObserverLatDeg": -6.796494,
+          "subSolarLonDeg": 248.267297,
+          "subSolarLatDeg": 0.629255
+        },
+        {
+          "observerUtc": "2010-07-15T00:00:00Z",
+          "horizonsTimeTag": "2010-Jul-15 00:00:00.000",
+          "lightTimeMinutes": 0.0201755,
+          "subObserverLonDeg": 2.060349,
+          "subObserverLatDeg": 5.549945,
+          "subSolarLonDeg": 137.825997,
+          "subSolarLatDeg": -0.273262
+        },
+        {
+          "observerUtc": "2020-03-20T00:00:00Z",
+          "horizonsTimeTag": "2020-Mar-20 00:00:00.000",
+          "lightTimeMinutes": 0.02219746,
+          "subObserverLonDeg": 5.269973,
+          "subObserverLatDeg": 4.009816,
+          "subSolarLonDeg": 233.686913,
+          "subSolarLatDeg": -1.552333
+        },
+        {
+          "observerUtc": "2024-04-08T00:00:00Z",
+          "horizonsTimeTag": "2024-Apr-08 00:00:00.000",
+          "lightTimeMinutes": 0.01995291,
+          "subObserverLonDeg": 0.585197,
+          "subObserverLatDeg": 0.908964,
+          "subSolarLonDeg": 191.327487,
+          "subSolarLatDeg": 0.090819
+        },
+        {
+          "observerUtc": "2026-11-10T00:00:00Z",
+          "horizonsTimeTag": "2026-Nov-10 00:00:00.000",
+          "lightTimeMinutes": 0.02222509,
+          "subObserverLonDeg": 3.450226,
+          "subObserverLatDeg": 6.5658,
+          "subSolarLonDeg": 175.405935,
+          "subSolarLatDeg": -1.544939
+        },
+        {
+          "observerUtc": "2035-09-01T00:00:00Z",
+          "horizonsTimeTag": "2035-Sep-01 00:00:00.000",
+          "lightTimeMinutes": 0.02044209,
+          "subObserverLonDeg": 3.424869,
+          "subObserverLatDeg": 1.320595,
+          "subSolarLonDeg": 197.814723,
+          "subSolarLatDeg": 0.116085
+        }
+      ]
+    },
+    {
+      "target": "499",
+      "bodyId": "mars",
+      "name": "Mars (499)",
+      "ephemerisSource": "mar099",
+      "cartographicFrame": "IAU_MARS",
+      "headerLongitudeNote": "{West-longitude positive}",
+      "longitudeSense": "west",
+      "latitudeType": "planetodetic",
+      "horizonsRadiiKm": "3396.19, 3396.19, 3376.2",
+      "lightTimeUnits": "minutes",
+      "subObserverNote": "Apparent planetodetic longitude and latitude of the center of the target disc seen by the OBSERVER at print-time. This is NOT exactly the same as the \"nearest\" sub-point for a non-spherical target shape (since the center of the disc might not be the point closest to the observer), but is generally very close if not a very irregular body shape. Down-leg light travel-time from target to observer is taken into account. Latitude is the angle between the equatorial plane and the line perpendicular to the reference ellipsoid of the body, so includes body oblateness. The reference ellipsoid is an oblate spheroid with a single flatness coefficient in which the y-axis body radius is taken to be the same value as the x-axis radius. Positive longitude is to the WEST for this target. Cartographic system is given in the header.",
+      "subSolarNote": "Apparent sub-solar longitude and latitude of the Sun on the target. The apparent planetodetic longitude and latitude of the center of the target disc as seen from the Sun, as seen by the observer at print-time. This is NOT exactly the same as the \"sub-solar\" (nearest) point for a non-spherical target shape (since the center of the disc seen from the Sun might not be the closest point to the Sun), but is very close if not a highly irregular body shape. Light travel-time from Sun to target and from target to observer is taken into account. Latitude is the angle between the equatorial plane and the line perpendicular to the reference ellipsoid of the body. The reference ellipsoid is an oblate spheroid with a single flatness coefficient in which the y-axis body radius is taken to be the same value as the x-axis radius. Positive longitude is to the WEST for this target. Cartographic system is given in the header.",
+      "lightTimeNote": "1-way down-leg light-time from target center to observer. The elapsed time since light (observed at print-time) would have left or reflected off a point at the center of the target.",
+      "rows": [
+        {
+          "observerUtc": "2000-01-01T00:00:00Z",
+          "horizonsTimeTag": "2000-Jan-01 00:00:00.000",
+          "lightTimeMinutes": 15.36083832,
+          "subObserverLonDeg": 254.513597,
+          "subObserverLatDeg": -23.172064,
+          "subSolarLonDeg": 219.979417,
+          "subSolarLatDeg": -25.385098
+        },
+        {
+          "observerUtc": "2010-07-15T00:00:00Z",
+          "horizonsTimeTag": "2010-Jul-15 00:00:00.000",
+          "lightTimeMinutes": 15.71035229,
+          "subObserverLonDeg": 281.366679,
+          "subObserverLatDeg": 26.274264,
+          "subSolarLonDeg": 245.906478,
+          "subSolarLatDeg": 22.231485
+        },
+        {
+          "observerUtc": "2020-03-20T00:00:00Z",
+          "horizonsTimeTag": "2020-Mar-20 00:00:00.000",
+          "lightTimeMinutes": 12.95067563,
+          "subObserverLonDeg": 356.909,
+          "subObserverLatDeg": -12.189018,
+          "subSolarLonDeg": 31.336581,
+          "subSolarLatDeg": 4.657508
+        },
+        {
+          "observerUtc": "2024-04-08T00:00:00Z",
+          "horizonsTimeTag": "2024-Apr-08 00:00:00.000",
+          "lightTimeMinutes": 17.16310075,
+          "subObserverLonDeg": 144.836295,
+          "subObserverLatDeg": -25.238236,
+          "subSolarLonDeg": 171.513871,
+          "subSolarLatDeg": -19.783753
+        },
+        {
+          "observerUtc": "2026-11-10T00:00:00Z",
+          "horizonsTimeTag": "2026-Nov-10 00:00:00.000",
+          "lightTimeMinutes": 11.29543813,
+          "subObserverLonDeg": 10.861558,
+          "subObserverLatDeg": 21.351913,
+          "subSolarLonDeg": 47.898109,
+          "subSolarLatDeg": 8.343443
+        },
+        {
+          "observerUtc": "2035-09-01T00:00:00Z",
+          "horizonsTimeTag": "2035-Sep-01 00:00:00.000",
+          "lightTimeMinutes": 3.22954163,
+          "subObserverLonDeg": 16.223068,
+          "subObserverLatDeg": -20.854151,
+          "subSolarLonDeg": 30.614892,
+          "subSolarLatDeg": -24.858808
+        }
+      ]
+    },
+    {
+      "target": "10",
+      "bodyId": "sun",
+      "name": "Sun (10)",
+      "ephemerisSource": "DE441",
+      "cartographicFrame": "IAU_SUN",
+      "headerLongitudeNote": "{East-longitude positive}",
+      "longitudeSense": "east",
+      "latitudeType": "planetodetic",
+      "horizonsRadiiKm": "695700.0, 695700.0, 695700.0",
+      "lightTimeUnits": "minutes",
+      "subObserverNote": "Apparent planetodetic longitude and latitude of the center of the target disc seen by the OBSERVER at print-time. This is NOT exactly the same as the \"nearest\" sub-point for a non-spherical target shape (since the center of the disc might not be the point closest to the observer), but is generally very close if not a very irregular body shape. Down-leg light travel-time from target to observer is taken into account. Latitude is the angle between the equatorial plane and the line perpendicular to the reference ellipsoid of the body, so includes body oblateness. The reference ellipsoid is an oblate spheroid with a single flatness coefficient in which the y-axis body radius is taken to be the same value as the x-axis radius. For Jupiter, Saturn, and Uranus, IAU2015 longitude is based on the \"System III\" prime meridian rotation angle of the magnetic field. By contrast, pole direction (thus latitude) is relative to the body dynamical equator. There can be an offset between the magnetic pole and the dynamical pole of rotation. For Neptune, rotation is IAU2015 \"System II\" rotation of optically observed features in the Neptunian atmosphere. Positive longitude is to the EAST for this target. Cartographic system is specified in the header.",
+      "subSolarNote": "Apparent sub-solar longitude and latitude of the Sun on the target. The apparent planetodetic longitude and latitude of the center of the target disc as seen from the Sun, as seen by the observer at print-time. This is NOT exactly the same as the \"sub-solar\" (nearest) point for a non-spherical target shape (since the center of the disc seen from the Sun might not be the closest point to the Sun), but is very close if not a highly irregular body shape. Light travel-time from Sun to target and from target to observer is taken into account. Latitude is the angle between the equatorial plane and the line perpendicular to the reference ellipsoid of the body. The reference ellipsoid is an oblate spheroid with a single flatness coefficient in which the y-axis body radius is taken to be the same value as the x-axis radius. For Jupiter, Saturn, and Uranus, IAU2015 longitude is based on the \"System III\" prime meridian rotation angle of the magnetic field. By contrast, pole direction (thus latitude) is relative to the body dynamical equator. There can be an offset between the magnetic pole and the dynamical pole of rotation. For Neptune, rotation is IAU2015 \"System II\" rotation of optically observed features in the Neptunian atmosphere. Positive longitude is to the EAST for this target. Cartographic system is given in the header.",
+      "lightTimeNote": "1-way down-leg light-time from target center to observer. The elapsed time since light (observed at print-time) would have left or reflected off a point at the center of the target.",
+      "rows": [
+        {
+          "observerUtc": "2000-01-01T00:00:00Z",
+          "horizonsTimeTag": "2000-Jan-01 00:00:00.000",
+          "lightTimeMinutes": 8.17812169,
+          "subObserverLonDeg": 8.018407,
+          "subObserverLatDeg": -2.955104,
+          "subSolarLonDeg": null,
+          "subSolarLatDeg": null
+        },
+        {
+          "observerUtc": "2010-07-15T00:00:00Z",
+          "horizonsTimeTag": "2010-Jul-15 00:00:00.000",
+          "lightTimeMinutes": 8.45387358,
+          "subObserverLonDeg": 338.81669,
+          "subObserverLatDeg": 4.309265,
+          "subSolarLonDeg": null,
+          "subSolarLatDeg": null
+        },
+        {
+          "observerUtc": "2020-03-20T00:00:00Z",
+          "horizonsTimeTag": "2020-Mar-20 00:00:00.000",
+          "lightTimeMinutes": 8.28241993,
+          "subObserverLonDeg": 110.387705,
+          "subObserverLatDeg": -7.040985,
+          "subSolarLonDeg": null,
+          "subSolarLatDeg": null
+        },
+        {
+          "observerUtc": "2024-04-08T00:00:00Z",
+          "horizonsTimeTag": "2024-Apr-08 00:00:00.000",
+          "lightTimeMinutes": 8.32746487,
+          "subObserverLonDeg": 16.325558,
+          "subObserverLatDeg": -6.106476,
+          "subSolarLonDeg": null,
+          "subSolarLatDeg": null
+        },
+        {
+          "observerUtc": "2026-11-10T00:00:00Z",
+          "horizonsTimeTag": "2026-Nov-10 00:00:00.000",
+          "lightTimeMinutes": 8.23757205,
+          "subObserverLonDeg": 126.777207,
+          "subObserverLatDeg": 3.454586,
+          "subSolarLonDeg": null,
+          "subSolarLatDeg": null
+        },
+        {
+          "observerUtc": "2035-09-01T00:00:00Z",
+          "horizonsTimeTag": "2035-Sep-01 00:00:00.000",
+          "lightTimeMinutes": 8.39558302,
+          "subObserverLonDeg": 146.007087,
+          "subObserverLatDeg": 7.185026,
+          "subSolarLonDeg": null,
+          "subSolarLatDeg": null
+        }
+      ]
+    }
+  ]
+}
