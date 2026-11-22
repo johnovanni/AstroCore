@@ -51,3 +51,7 @@ written by `tools/fetch-horizons-subpoints.ps1`; limit 0.05 deg, great-circle):
 ```
 dotnet test
 ```
+
+## Licence
+
+MIT. See [LICENSE](LICENSE).
